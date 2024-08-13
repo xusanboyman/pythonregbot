@@ -4,6 +4,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.fsm.context import FSMContext
 from sqlalchemy import select, Column, Integer, String
 import re
+from keep_alive import keep_alive
 from typing import Any, Awaitable, Callable, Dict
 from aiogram import BaseMiddleware
 from aiogram.types import TelegramObject, ReplyKeyboardMarkup, KeyboardButton
